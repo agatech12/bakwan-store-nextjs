@@ -49,7 +49,7 @@ export default function handler(req, res) {
 
   switch (total_amount) {
     case 10_000:
-      command = `give ${username} minecraft:coal 10`;
+      command = `say ${username} Telah membeli bakwan`;
       break;
   
     default:

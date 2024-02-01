@@ -7,9 +7,8 @@ const ProductDetail = () => {
   const router = useRouter();
   const { productId } = router.query;
 
-  // Fungsi yang akan dipanggil saat formulir dikirim
+
   const submit = () => {
-    // Logika untuk menangani pengiriman formulir, Anda dapat menyesuaikannya sesuai kebutuhan
     console.log("Formulir Dikirim!");
   };
 
@@ -17,7 +16,6 @@ const ProductDetail = () => {
     <div>
       <Navbar />
 
-      {/* Letakkan bagian form yang diberikan di sini */}
       <section className="py-12" data-x-data="alpine">
         <div className="px-5 md:px-24 lg:px-48">
           <div className="bg-white w-full p-3 rounded-lg shadow-lg border-2 border-[#00FFFF]">
