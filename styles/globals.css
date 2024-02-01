@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-logo {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
